@@ -1,15 +1,7 @@
-import { Greeting } from "./features/greeting/Greeting";
-
-function MyButton() {
-  return (
-    <button>
-      I'm a button
-    </button>
-  );
-}
+import { Greeting } from './features/greeting/Greeting.js';
 
 function App() {
-   return (
+  return (
     <div>
       <Greeting />
     </div>

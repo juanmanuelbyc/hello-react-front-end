@@ -15,6 +15,7 @@ export default function Greeting() {
       <div>
         <h1>{message}</h1>
         <button
+          type="button"
           aria-label="Update message"
           onClick={() => dispatch(fetchGreeting())}
         >
@@ -22,5 +23,5 @@ export default function Greeting() {
         </button>
       </div>
     </div>
-  )
+  );
 }
