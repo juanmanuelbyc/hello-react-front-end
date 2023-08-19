@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
-import { useSelector, useDispatch } from 'react-redux'
-import { fetchGreeting } from './greetingSlice'
+import { useSelector, useDispatch } from 'react-redux';
+import { fetchGreeting } from './greetingSlice';
 
-export function Greeting() {
-  const message = useSelector((state) => state.greeting.message)
-  const dispatch = useDispatch()
+export default function Greeting() {
+  const message = useSelector((state) => state.greeting.message);
+  const dispatch = useDispatch();
 
   useEffect(() => {
     dispatch(fetchGreeting());
