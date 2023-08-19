@@ -1,4 +1,4 @@
-import { Greeting } from './features/greeting/Greeting.js';
+import { Greeting } from './features/greeting/Greeting';
 
 function App() {
   return (
