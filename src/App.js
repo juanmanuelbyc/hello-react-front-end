@@ -1,5 +1,5 @@
-import { Greeting } from './features/greeting/Greeting';
 import { Routes, Route } from 'react-router-dom';
+import { Greeting } from './features/greeting/Greeting';
 
 function App() {
   return (
