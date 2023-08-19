@@ -111,7 +111,7 @@ To access the backend scripts that power this user interface, please refer to th
 
 👤 **Juan Diaz**
 
-- GitHub: [@skabeo](https://github.com/juanmanuelbyc/)
+- GitHub: [@juanmanuelbyc](https://github.com/juanmanuelbyc/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
