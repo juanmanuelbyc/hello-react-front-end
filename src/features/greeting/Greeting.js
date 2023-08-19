@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { fetchGreeting } from './greetingSlice';
 
-export const Greeting = () =>  {
+export const Greeting = () => {
   const message = useSelector((state) => state.greeting.message);
   const dispatch = useDispatch();
 
@@ -25,3 +25,5 @@ export const Greeting = () =>  {
     </div>
   );
 };
+
+export default Greeting;
