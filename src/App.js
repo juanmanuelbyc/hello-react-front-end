@@ -1,17 +1,12 @@
-import { Greeting } from "./features/greeting/Greeting";
-
-function MyButton() {
-  return (
-    <button>
-      I'm a button
-    </button>
-  );
-}
+import { Routes, Route } from 'react-router-dom';
+import { Greeting } from './features/greeting/Greeting';
 
 function App() {
-   return (
+  return (
     <div>
-      <Greeting />
+      <Routes>
+        <Route path="/greeting" element={<Greeting />} />
+      </Routes>
     </div>
   );
 }

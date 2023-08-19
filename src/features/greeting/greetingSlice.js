@@ -1,6 +1,5 @@
-import { createSlice, createAsyncThunk } from '@reduxjs/toolkit'
+import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
-
 
 export const fetchGreeting = createAsyncThunk('fetch/greeting', async () => {
   try {
@@ -23,6 +22,5 @@ const greetingSlice = createSlice({
   },
 });
 
-
 // Action creators are generated for each case reducer function
-export default greetingSlice.reducer
+export default greetingSlice.reducer;

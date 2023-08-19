@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
-import { useSelector, useDispatch } from 'react-redux'
-import { fetchGreeting } from './greetingSlice'
+import { useSelector, useDispatch } from 'react-redux';
+import { fetchGreeting } from './greetingSlice';
 
-export function Greeting() {
-  const message = useSelector((state) => state.greeting.message)
-  const dispatch = useDispatch()
+export const Greeting = () => {
+  const message = useSelector((state) => state.greeting.message);
+  const dispatch = useDispatch();
 
   useEffect(() => {
     dispatch(fetchGreeting());
@@ -15,6 +15,7 @@ export function Greeting() {
       <div>
         <h1>{message}</h1>
         <button
+          type="button"
           aria-label="Update message"
           onClick={() => dispatch(fetchGreeting())}
         >
@@ -22,5 +23,7 @@ export function Greeting() {
         </button>
       </div>
     </div>
-  )
-}
+  );
+};
+
+export default Greeting;

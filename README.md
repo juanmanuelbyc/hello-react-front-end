@@ -111,7 +111,7 @@ To access the backend scripts that power this user interface, please refer to th
 
 👤 **Juan Diaz**
 
-- GitHub: [@skabeo](https://github.com/juanmanuelbyc/)
+- GitHub: [@juanmanuelbyc](https://github.com/juanmanuelbyc/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -165,6 +165,6 @@ I would like to express my gratitude to the following individuals and organizati
 
 ## 📝 License <a id="license"></a>
 
-This project is [MIT](https://github.com/juanmanuelbyc/hello-react-front-end/LICENSE) licensed.
+This project is [MIT](https://github.com/juanmanuelbyc/hello-react-front-end/blob/features/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> 
